@@ -1,0 +1,12 @@
+
+spec:
+  destination:
+    server: https://kubernetes.default.svc
+  source:
+    api:
+      repoURL: git@github.com:de-pandas/wordsmith-api-chart.git
+    web:
+      repoURL: git@github.com:de-pandas/wordsmith-web-chart.git
+    db:
+      repoURL: git@github.com:de-pandas/word-smith-db.git
+    targetRevision: HEAD
